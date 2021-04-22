@@ -1,0 +1,109 @@
+.container {
+  background-color: #bebebe;
+  border-radius: 2px;
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto;
+  padding: 10px;
+  margin: auto;
+}
+
+.grid {
+  margin: auto;
+  padding: 20px;
+}
+
+.category {
+  margin: 20px;
+  text-align: center;
+  font-size: larger;
+}
+
+.rendered {
+  background-color: rgb(93, 93, 255);
+  color: white;
+  padding: 10px;
+  height: 20vh;
+  margin: 3vh;
+  text-align: center;
+  align-items: center;
+  border-radius: 2px;
+}
+
+.newbuttondiv {
+  display: flex;
+  justify-content: center;
+}
+
+.newbutton {
+  background-color: none;
+  border: none;
+  color: blue;
+  background: none;
+  align-items: center;
+  outline: none;
+}
+
+@media only screen and (max-device-width: 646px) {
+  .container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    margin-right: 10px;
+  }
+}
+
+@media only screen and (max-device-width: 446px) {
+  .container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    margin-right: 10px;
+  }
+  .grid {
+    padding: 10px;
+    margin: auto;
+  }
+}
+@media only screen and (max-device-width: 370px) {
+  .container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    margin-right: 10px;
+  }
+  .grid {
+    padding: 5px;
+    margin: auto;
+  }
+}
+@media only screen and (max-device-width: 330px) {
+  .container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    margin-right: 10px;
+  }
+  .grid {
+    padding: 1.5px;
+    margin: auto;
+  }
+}
+@media only screen and (max-device-width: 300px) {
+  .container {
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-right: 10px;
+  }
+  .grid {
+    padding: 1.5px;
+    margin-bottom: 1.5px;
+  }
+}
+
+.footer {
+  margin-top: 15vh;
+  text-align: center;
+  color: #a3a2a2;
+}
+
+.catButton:active {
+  background-color: rgb(93, 93, 255);
+  border: none;
+  outline: none;
+}
